@@ -1,0 +1,10 @@
+# Input files used for the simulations. Two folders are required 
+## Static
+- Demographics_With_Properties
+## Templates
+- campaign_cpnPrEPDelays.json
+- config.json
+- PFA_Overlay.json
+- Risk_Assortivity_Overlay.json
+-Accessibility_and_Risk_IP_Overlay.json
+
