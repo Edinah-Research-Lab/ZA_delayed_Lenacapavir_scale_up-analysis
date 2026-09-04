@@ -1,0 +1,3 @@
+## Dtk_postprocess (dtk_postprocess.py)
+This is a user-defined Python script that the simulation engine automatically executes immediately after a model run finishes. 
+The script acts as an on-the-fly data refiner directly on the compute node before results are sent back to the local machine or server.
