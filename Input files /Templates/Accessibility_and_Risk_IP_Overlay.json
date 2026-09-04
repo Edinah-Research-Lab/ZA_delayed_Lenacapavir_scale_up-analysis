@@ -1,0 +1,375 @@
+{
+   "Metadata": {
+      "Author": "abershteyn", 
+      "DateCreated": "13-Jul-2016", 
+      "IdReference": "0", 
+      "NodeCount": 10, 
+      "RegionName": "South Africa", 
+      "Tool": "Notepad++, Matlab R2016a, Excel for MS Office 2013"
+   }, 
+   "Nodes": [
+      {
+         "IndividualProperties": [
+            {
+               "Comment": "VOICE5Tagged from 2023", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "VOICE5Tagged", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "VOICE3Tagged from 2023", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "VOICE3Tagged", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "VOICE1Tagged from 2023", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "VOICE1Tagged", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "VOICE0Tagged from 2023", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "VOICE0Tagged", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "Using oral PrEP from 2016", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "WillUseOralPrEP", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "WillUseAnyPrEP", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "OnDrug", 
+               "Transitions": [], 
+               "Values": [
+                  "YES", 
+                  "NO"
+               ]
+            },
+            {
+                  "Comment": "WillUseDapivirineRingStarting2024", 
+                  "Initial_Distribution": [
+                     0.0, 
+                     1.0
+                  ], 
+                  "Property": "WillUseDapivirineRing", 
+                  "Transitions": [], 
+                  "Values": [
+                     "Yes", 
+                     "No"
+                  ]
+            },
+            {
+               "Comment": "OralPrEPForPregnantWomen", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "PregWillUseOralPrEP", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+                  "Comment": "Long Acting PrEP for AGYW", 
+                  "Initial_Distribution": [
+                     0.0, 
+                     1.0
+                  ], 
+                  "Property": "WillUseLAPrEP", 
+                  "Transitions": [], 
+                  "Values": [
+                     "Yes", 
+                     "No"
+                  ]
+            },
+            {
+               "Comment": "U=U Messaging", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "WillTestForHIVUUMessage", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "Mens Clinics for male adults 15+ years old", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "MensClinic", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "Change IP for people who have debuted", 
+               "Initial_Distribution": [
+                  0.0, 
+                  1.0
+               ], 
+               "Property": "IsPostDebut", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Comment": "80% Healthcare Accessible", 
+               "Initial_Distribution": [
+                  0.8, 
+                  0.2
+               ], 
+               "Property": "Accessibility", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            },
+            {
+               "Initial_Distribution": [
+                  0,
+                  1
+               ], 
+               "Property": "WillDoTraditionalMC", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes","No"
+               ]
+            },
+            {
+               "Initial_Distribution": [
+                  0,
+                  1
+               ], 
+               "Property": "WillGetPrEP", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes","No"
+               ]
+            },            
+            {
+               "Initial_Distribution": [
+                  0,
+                  1
+               ], 
+               "Property": "NewIndexPartners_Flag", 
+               "Transitions": [], 
+               "Values": [
+                  "YES","NO"
+               ]
+            }, 
+            {
+               "Initial_Distribution": [
+                  0,
+                  1
+               ], 
+               "Property": "ANCPartners_Flag", 
+               "Transitions": [], 
+               "Values": [
+                  "YES","NO"
+               ]
+            }, 
+            {
+                  "Property": "Facility_Flag",
+               "Comment": "Mark for facility",
+                  "Values": [ "YES", "NO" ],
+                  "Initial_Distribution": [ 0, 1 ],
+                  "Transitions": []
+            },
+            {
+               "Initial_Distribution": [
+                  0,
+                  1
+               ], 
+               "Property": "ARTIneligible", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes","No"
+               ]
+            },
+            {
+               "Initial_Distribution": [
+                  1, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0,
+                  0,
+                  0,
+                  0
+               ], 
+               "Property": "InterventionStatus", 
+               "Transitions": [], 
+               "Values": [
+               "", 
+               "ARTStaging", 
+               "ARTStagingDiagnosticTest", 
+               "LinkingToART", 
+               "LinkingToPreART", 
+               "OnART", 
+               "OnPreART", 
+               "HCTTestingLoop", 
+               "HCTUptakeAtDebut", 
+               "HCTUptakePostDebut", 
+               "TestingOnANC", 
+               "TestingOnChild6w", 
+               "TestingOnSymptomatic", 
+               "LostForever",
+               "OnEffectiveART",
+               "OnNonSuppressiveART",
+               "StoppedART"					
+               ]
+            },
+            {
+               "Initial_Distribution": [
+                  1, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0, 
+                  0,
+                  0,
+                  0
+               ], 
+               "Property": "PrEPTier", 
+               "Transitions": [], 
+               "Values": [
+                  "",    
+                  "VOICE615to25_Tier1", 
+                  "VOICE615to25_Tier2", 
+                  "VOICE615to25_Tier3", 
+                  "VOICE625to50_Tier1", 
+                  "VOICE415to25_Tier1", 
+                  "VOICE415to25_Tier2", 
+                  "VOICE415to25_Tier3", 
+                  "VOICE425to50_Tier1", 
+                  "VOICE425to50_Tier2", 
+                  "VOICE425to50_Tier3", 
+                  "VOICE225to50_Tier1", 
+                  "VOICE225to50_Tier2", 
+                  "VOICE225to50_Tier3", 
+                  "VOICE215to25_Tier1",
+                  "VOICE015to50_Tier1"    				
+               ]
+            },                
+            {
+               "Initial_Distribution": [
+                  0.6637418389, 
+                  0.3362581611, 
+                  0.0
+               ], 
+               "Initial_Distribution__KP_Risk_All": "<-- MARKER",  
+               "Property": "Risk", 
+               "Transitions": [], 
+               "Values": [
+                  "LOW", 
+                  "MEDIUM", 
+                  "HIGH"
+               ]
+            }, 
+            {
+               "Comment": "Received initial first year immunizations, if VaccineState yes, eligible for boosters", 
+               "Initial_Distribution": [
+                  0, 
+                  1
+               ], 
+               "Property": "VaccineState", 
+               "Transitions": [], 
+               "Values": [
+                  "Yes", 
+                  "No"
+               ]
+            }, 
+            {
+               "Comment": "Fraction of viral load strata for inidivudals on ART, national levels for South Africa 2015", 
+               "Initial_Distribution": [
+                  0.778, 
+                  0.037, 
+                  0.123, 
+                  0.062
+               ], 
+               "Property": "FractionViralLoadStrataOnART", 
+               "Transitions": [], 
+               "Values": [
+                  "ViralLoad0to399", 
+                  "ViralLoad400to999", 
+                  "ViralLoad1000to9999", 
+                  "ViralLoad10000toInfinity"
+               ]               
+            }
+         ], 
+         "NodeID": 1
+      }
+    ]
+ }
